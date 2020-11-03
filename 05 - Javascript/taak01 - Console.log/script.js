@@ -1,1 +1,8 @@
-console.log("Mijn naam is darimir Mateo");
+let voornaam = "Darimir";
+let achtergrond;
+
+console.log(voornaam); 
+console.log(achternaam);
+
+
+
