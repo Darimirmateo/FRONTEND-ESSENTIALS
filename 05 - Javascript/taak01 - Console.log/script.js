@@ -6,3 +6,5 @@ console.log(achternaam);
 
 
 
+let eenLegeVariabele = null;
+console.log(eenLegeVariabele);
