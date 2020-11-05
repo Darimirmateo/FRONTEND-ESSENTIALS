@@ -6,10 +6,14 @@ let ikmaglegaalalcoholkopen;
 let ikmagbrommerrijden;
 
 
+
 console.log(voornaam); 
 console.log(achternaam);
 console.log(leeftijd); 
 console.log(ikbenstemgerechtig);
 console.log(ikmaglegaalalcoholkopen); 
 console.log(ikmagbrommerrijden);
+
+
+
 
