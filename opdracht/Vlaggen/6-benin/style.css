@@ -4,23 +4,45 @@
 }
 
 #container{
+    
+    
+    
+    
     width: 800px;
     height: 500px;
-    background-color: blanchedalmond;
+    background-color: blanch;
     border: 1px solid black;
 }
 
 /* Hieronder kun je gaan editen */
 
-#bovenkant{
-    width: 800px;
-    height: 250px;
-    background-color: white;
+#Links{
+
+    
+    width: 300px;
+    height: 500px;
+    background-color: green;
+    
+    
 }
 
-#onderkant{
-    width: 800px;
+#Rechts{
+   margin-top: -250px;
+   margin-left: 300px;
+   margin-right: 40px;
+    width: 500px;
     height: 250px;
-    background-color: red;
+    background-color:yellow;
+ 
 }
 
+#rechtsonder{
+    margin-top: -500px;
+    margin-left: 300px;
+    margin-right: 40px;
+     width: 500px;
+     height: 250px;
+     background-color:red;
+  
+ }
+ 
