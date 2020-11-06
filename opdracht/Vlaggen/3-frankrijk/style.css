@@ -4,6 +4,8 @@
 }
 
 #container{
+    
+    display: flex; 
     width: 800px;
     height: 500px;
     background-color: blanchedalmond;
@@ -13,14 +15,24 @@
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
+    
     width: 800px;
-    height: 250px;
-    background-color: white;
+    height: 500px;
+    background-color: red;
+    
 }
 
 #onderkant{
+    
     width: 800px;
-    height: 250px;
-    background-color: red;
+    height: 500px;
+    background-color: white;
+}
+
+#midden{
+
+    width: 800px;
+    height: 500px;
+    background-color:blue;
 }
 
