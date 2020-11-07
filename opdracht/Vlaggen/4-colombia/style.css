@@ -15,20 +15,20 @@
 #bovenkant{
     width: 800px;
     height: 300px;
-    background-color: lightblue;
+    background-color: yellow;
     
 }
 
 #onderkant{
     width: 800px;
     height: 250px;
-    background-color: lightblue;
+    background-color: blue;
 }
 
 #midden{
     width: 800px;
     height: 250px;
-    background-color:white;
+    background-color:red;
  
 }
 
