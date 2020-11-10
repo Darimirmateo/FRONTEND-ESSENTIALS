@@ -1,8 +1,9 @@
-let mijnLeeftijd= prompt("wat is je leeftijd?");
-let stemGerechtigheid= 18
-let oranjekleur= 16
-let blauwkleur= 17
-let groenkleur= 19
+let mijnLeeftijd= prompt ("wat is je leeftijd?");
+let stemGerechtigheid= 18;
+let oranjekleur= 16;
+let blauwkleur= 17;
+let groenkleur= 19;
+
 if (mijnLeeftijd==stemGerechtigheid){
    // Als de gebruiker (bezoeker) 16 jaar dan wordt de achtergrond kleur van index.html een oranje-achtige kleur
    document.querySelector("body").style.backgroundColor="gold"
