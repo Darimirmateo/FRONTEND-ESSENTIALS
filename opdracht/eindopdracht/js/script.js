@@ -1,47 +1,46 @@
 //TODO: met prompt bezoeker info opslaan in object persoon
-  let bezoeker {
+  let bezoeker = {
    
-   voornaam: prompt("voornaam");
-   Achternaam: prompt("achternaam");
-   email: prompt("email");
-   leefttijd: prompt ("leeftijd");
-   woonplaats: prompt("woonplaats");
+   voornaam: prompt("Wat is je voornaam?"),
+   achternaam: prompt("wat is je achternaam"),
+   email: prompt("wat is je email"),
+   leeftijd: prompt ("wat is je leeftijd"),
+   woonplaats: prompt("wat is je woonplaats")
 }
 
-//TODO: toon eigenschappen van object persoon in een tabel
-//TODO: console.log() object persoon
 
-console.log(bezoeker);
 
-let stemGerechtigheid= 18;
+let stemGerechtigheid= 18;  
 let oranjekleur= 16;
 let blauwkleur= 17;
 let groenkleur= 19;
 let ramdomcolor= 0;
 
-if (mijnLeeftijd==stemGerechtigheid){
-  
-   document.querySelector("body").style.backgroundColor="gold"
+
+document.querySelector("h1").innerHTML = "Darimir Mateo";
+
+
+if (bezoeker.leeftijd==18){  
+   document.querySelector("body").style.backgroundColor="gold";
+}
+if (bezoeker.leeftijd==16){
+   document.querySelector("body").style.backgroundColor="orange";
+}
+if (bezoeker.leeftijd==17){
+   document.querySelector("body").style.backgroundColor="blue";
+}
+if (bezoeker.leeftijd==19){
+   document.querySelector("body").style.backgroundColor="green";
+   console.log("de color is green");
+}
+
+if (bezoeker.leeftijd==""){
+   document.querySelector("body").style.backgroundColor="red";
 }
 
 
-<h1>voornaam</h1>
-document.querySelector("h1").innerHTML = "test";
-
-
-
-if (mijnLeeftijd==oranjekleur){
-   document.querySelector("body").style.backgroundColor="orange"
-}
-if (mijnLeeftijd==blauwkleur){
-   document.querySelector("body").style.backgroundColor="blue"
-}
-if (mijnLeeftijd==groenkleur){
-   document.querySelector("body").style.backgroundColor="green"
-}
-
-if (ramdomcolor){
-   document.querySelector("body").style.backgroundColor="all"
+if (bezoeker){  
+   console.log("bezoeker");
 }
 
 
