@@ -17,13 +17,13 @@ let groenkleur= 19;
 let ramdomcolor= 0;
 
 
-document.querySelector("h1").innerHTML = "Darimir Mateo";
+document.querySelector("h1").innerHTML = bezoeker.voornaam + " " + bezoeker.achternaam;
 
 
 if (bezoeker.leeftijd==18){  
    document.querySelector("body").style.backgroundColor="gold";
 }
-if (bezoeker.leeftijd==16){
+if (bezoeker.leeftijd==oranjekleur){
    document.querySelector("body").style.backgroundColor="orange";
 }
 if (bezoeker.leeftijd==17){
@@ -39,9 +39,7 @@ if (bezoeker.leeftijd==""){
 }
 
 
-if (bezoeker){  
-   console.log("bezoeker");
-}
+
 
 
 
