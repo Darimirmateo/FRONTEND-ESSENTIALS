@@ -1,18 +1,17 @@
 //TODO: met prompt bezoeker info opslaan in object persoon
-let bezoeker {
+  let bezoeker {
    
-   voornaam: prompt("voornaam?");
+   voornaam: prompt("voornaam");
    Achternaam: prompt("achternaam");
    email: prompt("email");
-   leefttijd: prompt ("leeftijd")
-   woonplaats: prompt("woonplaats")
-
+   leefttijd: prompt ("leeftijd");
+   woonplaats: prompt("woonplaats");
 }
 
 //TODO: toon eigenschappen van object persoon in een tabel
 //TODO: console.log() object persoon
 
-console.log("bezoeker");
+console.log(bezoeker);
 
 let stemGerechtigheid= 18;
 let oranjekleur= 16;
