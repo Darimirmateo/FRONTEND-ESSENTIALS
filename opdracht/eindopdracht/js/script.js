@@ -8,7 +8,7 @@
    woonplaats: prompt("wat is je woonplaats")
 }
 
-
+console.log(bezoeker);
 
 let stemGerechtigheid= 18;  
 let oranjekleur= 16;
