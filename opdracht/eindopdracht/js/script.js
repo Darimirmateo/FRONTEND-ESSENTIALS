@@ -18,7 +18,11 @@ let ramdomcolor= 0;
 
 
 document.querySelector("h1").innerHTML = bezoeker.voornaam + " " + bezoeker.achternaam;
-// document.querySelector("h1").innerHTML = bezoeker.voornaam + " " + bezoeker.achternaam;
+document.querySelector("#voornaam").innerHTML = bezoeker.voornaam;
+document.querySelector("#achternaam").innerHTML = bezoeker.achternaam;
+document.querySelector("#woonplaats").innerHTML = bezoeker.woonplaats;
+document.querySelector("#email").innerHTML = bezoeker.email;
+
 
 
 if (bezoeker.leeftijd==18){  
