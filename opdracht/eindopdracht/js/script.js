@@ -22,7 +22,7 @@ document.querySelector("#voornaam").innerHTML = bezoeker.voornaam;
 document.querySelector("#achternaam").innerHTML = bezoeker.achternaam;
 document.querySelector("#woonplaats").innerHTML = bezoeker.woonplaats;
 document.querySelector("#email").innerHTML = bezoeker.email;
-
+GIT
 
 
 if (bezoeker.leeftijd==18){  
